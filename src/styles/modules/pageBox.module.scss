@@ -1,0 +1,27 @@
+.pageBox{
+    display: flex;    
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--color-gray-4);
+
+    width: 100%;
+    min-height: 100vh;
+}
+
+.dashContainer{
+    display: flex;    
+    justify-content: center;
+    background-color: var(--color-gray-4);
+
+    padding: 0.625rem;
+    
+    min-height: 100vh;
+}
+
+.dashBox{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;    
+    height: 100px;
+    width: 100%;
+}
